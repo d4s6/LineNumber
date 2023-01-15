@@ -1,0 +1,4 @@
+/vendor/
+/log/
+/.psalm.cache/
+/.php-cs-fixer.cache
