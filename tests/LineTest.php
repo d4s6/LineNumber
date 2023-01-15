@@ -64,6 +64,8 @@ final class LineTest extends TestCase
     {
         $this->assertSame(7, Line::number(5)->add(2)->i);
         $this->assertSame(3, Line::number(5)->add(-2)->i);
+
+        $this->assertSame(7, Line::number(5)->add(Line::number(2))->i);
     }
 
     public function testErrorOnNegativeSum(): void
@@ -76,6 +78,8 @@ final class LineTest extends TestCase
     {
         $this->assertSame(7, Line::number(9)->subtract(2)->i);
         $this->assertSame(7, Line::number(5)->subtract(-2)->i);
+
+        $this->assertSame(7, Line::number(9)->subtract(Line::number(2))->i);
     }
 
     public function testErrorOnNegativeDifference(): void

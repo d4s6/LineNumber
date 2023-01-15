@@ -15,6 +15,7 @@ $otherLine->equals($startLine); // FALSE
 $otherLine->equals(2);          // TRUE
 
 (string) Line::number(7);       // '7'
+Line::number(7)->i;             // 7
 
 Line::number(-1);               // ...\NegativeValueError
 

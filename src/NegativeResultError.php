@@ -26,6 +26,6 @@ class NegativeResultError extends Error
     public function __construct(int $a, string $operator, int $b, int $result, ?Throwable $previous = null)
     {
         $computation = ''.$a.$operator.$b;
-        parent::__construct(sprintf('The result "%s of "%s" is less than zero.', $result, $computation), previous: $previous);
+        parent::__construct(sprintf('The result "%s" of "%s" is less than zero.', $result, $computation), previous: $previous);
     }
 }

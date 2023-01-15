@@ -1,14 +1,5 @@
 <?php
 
-/*
- * This file is part of "genug".
- *
- * (c) David Schwarz / Ringsdorf
- * https://davidschwarz.eu
- *
- * License: MIT License
- */
-
 use PhpCsFixer\{
     Config,
     Finder
