@@ -1,7 +1,9 @@
 {
-    "name": "david-schwarz/line-number",
+    "name": "davidschwarz/line-number",
     "description": "Line numbers as immutable value objects. With a WeakMap based repository in the background.",
     "type": "value-object",
+    "keywords": ["value object", "Line number"],
+    "homepage": "https://github.com/d4s6/LineNumber",
     "license": "MIT",
     "autoload": {
         "psr-4": {
